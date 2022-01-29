@@ -1,7 +1,7 @@
 from .biteopt import _minimize
 import numpy as np
 
-__source_version__ = "2021.28.1"
+__source_version__ = "2022.3"
 
 class OptimizeResult(dict):
     r""" Represents the optimization result.
