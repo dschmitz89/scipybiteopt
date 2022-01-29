@@ -32,7 +32,7 @@ class OptimizeResult(dict):
         else:
             return self.__class__.__name__ + "()"
 
-def biteopt(fun, bounds, args=(), iters = 20000, depth = 1, attempts = 1, tol = 'hard', callback = None):
+def biteopt(fun, bounds, args=(), iters = 20000, depth = 1, attempts = 5, tol = 'hard', callback = None):
     '''
     Global optimization via the biteopt algorithm
 
